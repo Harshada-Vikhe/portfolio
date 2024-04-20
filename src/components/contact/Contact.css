@@ -1,0 +1,55 @@
+.contact{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.section_title{
+    padding: 0px 30px;
+    font-size: 60px;
+    font-weight: 400;
+    margin-bottom: 30px;
+    
+}
+.section a{
+    text-decoration: none;
+   
+    
+}
+.section a span{
+    padding:10px 20px;
+    border-radius: 50px;
+    border: 2px solid #FFF;
+    cursor: pointer;
+    color: white;
+    display: block;
+    margin-bottom: 20px;
+}
+.section a span:hover{
+    border-color:#B415Ff ;
+}
+.center a{
+    color: white;
+    
+}
+.link{
+    padding: 10px;
+}
+
+@media(max-width:768px){
+    .section_title{
+        font-size: 40px;
+        font-weight: 400;
+    }
+
+    .section a span{
+        padding:8px 15px;
+        border-radius: 50px;
+        border: 2px solid #FFF;
+        cursor: pointer;
+        color: white;
+        display: block;
+        margin-bottom: 20px;
+    }
+    
+}

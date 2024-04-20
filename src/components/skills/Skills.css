@@ -1,0 +1,48 @@
+.section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 80px 170px;
+}
+
+.section-title{
+    padding: 0px 30px;
+    font-size: 60px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+
+.skills_list{
+   
+    max-width: 550px;
+    width: 95%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+.btn{
+    display: block;
+    
+    cursor: pointer;
+    font-weight: 500;
+    padding: 11px 20px;
+    background-color: #2a2f4c;
+    transition: transform 0.2s ease-in-out;
+}
+.skills_list-item{
+    margin: 10px;
+    box-shadow: 3px 3px 0 #050c33 ;
+}
+
+@media(max-width:768px){
+    .section-title{ 
+        font-size: 40px;
+    }
+
+    
+
+}

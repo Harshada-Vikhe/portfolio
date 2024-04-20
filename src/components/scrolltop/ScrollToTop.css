@@ -1,0 +1,16 @@
+.scroll{
+    position: fixed;
+    bottom: 32px;
+    right: 50px;
+    background-color: transparent;
+    
+}
+.scroll a{
+    color: white;
+}
+
+@media (max-width:768px){
+    .scroll{
+        display: none;
+    }
+}
