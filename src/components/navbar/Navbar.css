@@ -5,13 +5,13 @@
     margin: 20px 170px;
 }
 
-ul li a {
+nav a {
     text-decoration: none;
     color: #fff;
     transition: all 0.3 ease-in-out;
 }
-ul li a:hover,
-.navbar .logo{
+nav a:hover,
+.navbar .logo a{
     background: linear-gradient(267deg,#DA7C25 0.36%,#b923E1 102.06%);
     --webkit-background-clip:text;
     background-clip: text;
@@ -22,6 +22,7 @@ ul li a:hover,
 .navbar .logo a{
     text-decoration: none;
     cursor: pointer;
+    font-size: 30px;
     
 }
 .nav-menu{

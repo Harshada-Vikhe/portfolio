@@ -19,14 +19,14 @@ const Navbar = () => {
     <div className='navbar'>
         <span class="logo"><a href='#'>HV</a></span>
         <IoIosMenu size={35} onClick={openMenu} className='nav-mob-open' />
-        <ul ref={menuRef} className='nav-menu'>
+        <nav ref={menuRef} className='nav-menu'>
            <IoMdClose size={30} onClick={closeMenu} className='nav-mob-close'/>
-            <li><a href='#'>Home</a></li>
+            <a href='#'>Home</a>
            
-            <li><a href='#project'>Projects</a></li>
-            <li><a href='#skills'>Skills</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
+            <a href='#project'>Projects</a>
+            <a href='#skills'>Skills</a>
+            <a href="#contact">Contact</a>
+        </nav>
         
        
     </div>

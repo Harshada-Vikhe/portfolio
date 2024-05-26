@@ -43,13 +43,15 @@
     }
 
     .section a span{
-        padding:8px 15px;
-        border-radius: 50px;
+        padding:10px 30px;
+        border-radius: 40px;
         border: 2px solid #FFF;
         cursor: pointer;
         color: white;
         display: block;
         margin-bottom: 20px;
+        font-size: 10px;
+        
     }
     
 }
