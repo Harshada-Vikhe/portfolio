@@ -22,6 +22,7 @@ ul li a:hover,
 .navbar .logo a{
     text-decoration: none;
     cursor: pointer;
+    font-weight:400
 }
 .nav-menu{
     display: flex;
