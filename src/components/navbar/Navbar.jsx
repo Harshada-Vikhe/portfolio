@@ -17,7 +17,7 @@ const Navbar = () => {
   return (
 <>
     <div className='navbar'>
-        <span><a href='#'>HV</a></span>
+        <span class="logo"><a href='#'>HV</a></span>
         <IoIosMenu size={35} onClick={openMenu} className='nav-mob-open' />
         <ul ref={menuRef} className='nav-menu'>
            <IoMdClose size={30} onClick={closeMenu} className='nav-mob-close'/>
