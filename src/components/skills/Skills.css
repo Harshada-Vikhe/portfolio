@@ -43,6 +43,13 @@
         font-size: 40px;
     }
 
+    .skills_list{
+        flex-wrap: wrap;
+        width: 300px;
+        display: flex;
+        margin: 10px;
+        justify-content: center;
+    }
     
 
 }
