@@ -2,7 +2,7 @@ export const projects=[
    {
     name:"BookBridges",
     desc:"E-commerce application for buying books online.",
-    stack:["React"],
+    stack:["React","CSS","Firebase"],
     githubrepo:"https://github.com/Harshada-Vikhe/BookBridges",
     livedemo:"https://bookbridges.netlify.app/"
    },
@@ -13,5 +13,12 @@ export const projects=[
     githubrepo:"https://github.com/Harshada-Vikhe/Employee-Management",
     livedemo:""
    },
+   {
+      name:"Shopping Cart",
+      desc:"Shopping cart implementation using Redux Toolkit for state management.",
+      stack:["React", "Redux-Toolkit","Bootstrap"],
+      githubrepo:"https://github.com/Harshada-Vikhe/Shopping-Cart",
+      livedemo:"https://shoppiing-carts.netlify.app/"
+     },
    
 ]
