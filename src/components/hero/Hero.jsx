@@ -14,7 +14,7 @@ const Hero = () => {
         </p>
         <div className="hero-action">
             <div className="hero-connect"><a href='https://www.linkedin.com/in/harshada-vikhe/'>Connect with me</a></div>
-            <div className="hero-resume"><a href="https://drive.google.com/file/d/1gWD4oFE0yxK9wv4QjO3xz-VJgHCrkqjF/view?usp=sharing">Resume</a></div>
+            <div className="hero-resume"><a href="https://drive.google.com/file/d/1qQ3GNoJbAdhWL3E3hoZd1T28q_OMyhjz/view?usp=drive_link">Resume</a></div>
         </div>
     </div>
   )
